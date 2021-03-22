@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>e-z-Budget</title>
+
+  <link rel="stylesheet" href="/public/stylesheets/style.css">
+</head>
+<header>
+  <h1>Welcome!</h1>
+  <nav>
+    <a href="/home">Home</a>
+    <a href="/create">Create</a>
+    <a href="/story">My Story</a>
+    <a href="/logout">Logout</a>
+  </nav>
+</header>
+
+
+<body>
+
+<div class="col-12 col-lg-6 bg-dark p-3 mb-3">
+  <h3 class="text-light">Enter an income</h3>
+<form action="Insert.php" method="POST">
+
+  <input type="text" id="incomeName" class="form-input input" placeholder="Enter Name" name="income-name">
+
+
+  <input type="number" id="incomeAmount" class="form-input" placeholder="income amount">
+
+
+  <button onclick="addMoney()" id="addMoney">Add income</button>
+
+</div>
+<div class="addedMoney">
+  <h2>Added income</h2>
+  <div id="addedMoney"></div>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-6 bg-dark p-3 mb-3">
+  <h3 class="text-light">Enter an expense</h3>
+
+
+  <input type="text" id="expenseName" class="form-input input" placeholder="Enter Name" name="expense-name">
+
+  <input type="number" id="expenseAmount" class="form-input input" placeholder="expense amount">
+
+
+  <button onclick="addExpense()" id="addExpense">Add expense</button>
+</div>
+<div class="addedExpenses">
+  <h2>Added expenses</h2>
+  <div id="addedExpenses"></div>
+</div>
+</div>
+</div>
+
+<div class="row justify-content-around">
+  <div class="col-sm-12 column">
+    <br><br>
+
+    <h2>Total Budget: <span id="totalBudget">0</span></h2>
+    <h2>Current Balance: <span id="currentBalance">0</span></h2>
+  </div>
+  </section>
+</form>
+
+  <script src="public/javascript/createbudget.js"></script>
+  </body>
+
+</html>

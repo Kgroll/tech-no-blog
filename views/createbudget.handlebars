@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-z-Budget</title>
+    
+    <link rel="stylesheet" href="/public/stylesheets/style.css">
+  </head>
+ 
+  
+    <header>
+      <h1>Welcome!</h1>
+      <nav>
+       <a href="/home">Home</a>
+        <a href="/create">Create</a>
+        <a href="/story">My Story</a>
+        <a href="/logout" >Logout</a>          
+      </nav>  
+    </header>
+    <body>
+      <h1>e-z-Budget</h1>
+      <!--add income-->
+      <hr>
+      <div id="flex">
+        <div class="column">
+          <div class="row justify-content-around">
+              <div class="col-sm-3 column">
+              <div>         
+
+          <br><h2>Add income</h2>
+          <input type="text" placeholder="income name" id="incomeName"><br><br>
+          <input type="number" placeholder="add money" id="incomeAmount"><br><br><br>
+          <button onclick="addMoney()" id="addMoney">Add money</button>
+        </div>
+          <div class="addedMoney">
+          <h2>Added income</h2>
+          <div id="addedMoney"></div>
+        </div>
+      </div>
+        <!--add expenses-->
+        <div class="row justify-content-around">
+          <div class="col-sm-12 column">
+         <br><br> 
+          <h2>Add expenses</h2>
+          <input type="text" placeholder="expense name" id="expenseName"><br><br>
+          <input type="number" placeholder="add expense" id="expenseAmount"><br><br><br>
+            <button onclick="addExpense()" id="addExpense">Add expense</button>
+        </div>
+        <div class="addedExpenses">
+          <h2>Added expenses</h2>
+          <div id="addedExpenses"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row justify-content-around">
+      <div class="col-sm-12 column">
+      <br><br>     
+          <h2>Total Budget: <span id="totalBudget">0</span></h2>
+          <h2>Current Balance: <span id="currentBalance">0</span></h2>
+  </div>
+      <script src="public/javascript/createbudget.js"></script>
+    </body>
+</html>
