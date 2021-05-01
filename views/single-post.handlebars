@@ -1,6 +1,7 @@
 {{> post-info post}}
 
 {{#if loggedIn}}
+<a href="/"> &larr; Go to homepage</a>
 <form class="comment-form">
   <div>
     <textarea name="comment-body"></textarea>
@@ -8,9 +9,12 @@
 
   <div>
     <button type="submit">add comment</button>
-    
+
   </div>
 </form>
+{{else}}
+<a href="/login">Create account or Login in order to view the dashboard</a>
+
 {{/if}}
 
 {{> comments post.comments}}

@@ -5,22 +5,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tech-No-Blog</title>
+ <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 
 <body>
   <div class="wrapper">
     <header>
-      <h2>Tech-No-Blog</h2>
+      <h1>
+        <a href="/">Tech-No-Blog</a>
+      </h1>
       <nav>
         {{#if loggedIn}}
-        <a href="/dashboard">Dashboard</a></br>
-        <button id="logout" class="btn-no-style">Logout</button></br>
-        <a href="/">Homepage</a>
+        <a href="/dashboard">dashboard</a>
+        <a href="/">homepage</a>
+        <button id="logout" class="btn-no-style">logout</button>
         {{else}}
-        <a href="/login">Login</a></br>
-        <a href="/signup">Create Account</a></br>
-        <a href="/">Homepage</a>
+        <a href="/login"> Login</a>
         {{/if}}
       </nav>
     </header>
@@ -28,13 +31,14 @@
       {{{ body }}}
     </main>
     <footer>
-      Thanks for visiting!
+      WELCOME TO TECH-NO-BLOG! HOPE YOU ENJOY YOUR VISIT!
     </footer>
   </div>
-  
   {{#if loggedIn}}
   <script src="/javascript/logout.js"></script>
+  
   {{/if}}
-</body>
+
+  </body>
 
 </html>
