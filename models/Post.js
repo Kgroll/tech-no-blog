@@ -18,10 +18,14 @@ Post.init(
     },
     contents: {
       type: DataTypes.STRING,
+<<<<<<< HEAD
       allowNull: false,
       validate: {
         len: [1]
       }
+=======
+      allowNull: false    
+>>>>>>> fa9160cc4f7f1b52dee850e6161eff035ea8b3b9
     },
     user_id: {
       type: DataTypes.INTEGER,
