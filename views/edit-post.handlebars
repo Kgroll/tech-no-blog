@@ -1,9 +1,7 @@
-
-
 <main>
-    
+
     <div class="container text-center">
-        
+
         <div class="row">
             <div class="col-sm-1 col-md-2 col-lg-4">
 
@@ -27,7 +25,7 @@
             </div>
             <div class="col-sm-1 col-md-2 col-lg-4 column">
                 <div>
-                    <a href="/home/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment"
+                    <a href="/home/post/{{post.id}}">{{post.comments.length}} {{format_plural "Comment"
                         post.comments.length}}</a>
                 </div>
                 {{> comments post.comments}}
@@ -39,4 +37,3 @@
 <script src="/javascript/edit-post.js"></script>
 <script src="/javascript/delete-post.js"></script>
 <script src="/javascript/logout.js"></script>
-

@@ -1,11 +1,15 @@
-<article class="post">
-  <div class="title"><h3>{{title}}</h3>
-  <div class= "contents"><h3>"{{contents}}"</h3>
-    
-  </div>
-  <div class="meta">
- Created by {{user.username}} on {{format_date created_at}}
-  |
-  <a href="/post/{{id}}">{{contents.length}} {{format_plural "comment" contents.length}}</a>
+<div class="container">
+  <article class="post">
+    <div class="title">
+      <h3>{{title}}</h3>
+      <div class="contents">
+        <p>{{contents}}</p>
+
+      </div>
+      <div class="meta">
+        Created by {{user.username}} on {{format_date created_at}}
+        |
+        <a href="/post/{{id}}">{{comments.length}} {{format_plural "Comment" comments.length}}</a>
+      </div>
+  </article>
 </div>
-</article>
