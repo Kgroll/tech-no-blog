@@ -8,7 +8,7 @@
 
   * [Installation](#installation)
 
-  * [Features](#features)
+  * [Screenshots](#screenshots)
 
   * [License](#license)
 
@@ -28,9 +28,13 @@
 
   Simply click on the Heroku link in the link section and you will be directed to the Homepage
 
-  ## Features
+  ## Screenshots
 
-  Handlebars and api routes
+  ![blog first](https://user-images.githubusercontent.com/75186217/116823359-14d36b80-ab52-11eb-9e22-150a5a3ecdc0.jpg)
+ 
+  ![blog1](https://user-images.githubusercontent.com/75186217/116823361-169d2f00-ab52-11eb-9a84-d5f53078e6b0.jpg)
+
+  ![blog2](https://user-images.githubusercontent.com/75186217/116823362-17ce5c00-ab52-11eb-9bf4-3391c81a1555.jpg)
 
   ## License
 
