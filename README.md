@@ -8,13 +8,13 @@
 
   * [Installation](#installation)
 
-  * [Features](#features)
+  * [Screenshots](#screenshots)
 
   * [License](#license)
 
   * [Contributing](#contributing)
 
-  * [Tests](#tests)
+  * [Links](#links)
 
   * [Credits](#credits)
 
@@ -26,11 +26,15 @@
 
   ## Installation
 
-  Simply click on the Heroku link in the link section you are good to go
+  Simply click on the Heroku link in the link section and you will be directed to the Homepage
 
-  ## Features
+  ## Screenshots
 
-  Handlebars and api routes
+  ![blog first](https://user-images.githubusercontent.com/75186217/116823359-14d36b80-ab52-11eb-9e22-150a5a3ecdc0.jpg)
+ 
+  ![blog1](https://user-images.githubusercontent.com/75186217/116823361-169d2f00-ab52-11eb-9a84-d5f53078e6b0.jpg)
+
+  ![blog2](https://user-images.githubusercontent.com/75186217/116823362-17ce5c00-ab52-11eb-9bf4-3391c81a1555.jpg)
 
   ## License
 
@@ -38,14 +42,11 @@
   
   For more information go to:  (https://opensource.org/licenses/BSL-1.0)
 
-  ## Contributing
 
-  undefined
+  ## Links
 
-  ## Tests
-
-  none
-
+  https://nameless-ravine-51403.herokuapp.com
+ 
   ## Credits
 
   none
