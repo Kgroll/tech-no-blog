@@ -14,7 +14,7 @@
 
   * [Contributing](#contributing)
 
-  * [Tests](#tests)
+  * [Links](#links)
 
   * [Credits](#credits)
 
@@ -26,7 +26,7 @@
 
   ## Installation
 
-  Simply click on the Heroku link in the link section you are good to go
+  Simply click on the Heroku link in the link section and you will be directed to the Homepage
 
   ## Features
 
@@ -38,14 +38,11 @@
   
   For more information go to:  (https://opensource.org/licenses/BSL-1.0)
 
-  ## Contributing
 
-  undefined
+  ## Links
 
-  ## Tests
-
-  none
-
+  https://nameless-ravine-51403.herokuapp.com
+ 
   ## Credits
 
   none
