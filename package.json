@@ -17,11 +17,12 @@
     "helpers": "0.0.6",
     "heroku": "^7.53.0",
     "mysql2": "^2.2.5",
-    "node": "^15.14.0",
+    "node": "v14.15.5",
     "path": "^0.12.7",
     "sequelize": "^6.6.2"
   },
   "devDependencies": {},
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kgroll/tech-no-blog.git"
