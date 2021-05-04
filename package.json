@@ -22,7 +22,6 @@
     "sequelize": "^6.6.2"
   },
   "devDependencies": {},
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Kgroll/tech-no-blog.git"
